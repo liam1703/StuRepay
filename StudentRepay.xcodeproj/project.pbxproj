@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED42BA8825C03E0F00A0A550 /* RepayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42BA8725C03E0F00A0A550 /* RepayView.swift */; };
 		ED9D03A325BAFE0C00ACDA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D03A225BAFE0C00ACDA45 /* AppDelegate.swift */; };
 		ED9D03A525BAFE0C00ACDA45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D03A425BAFE0C00ACDA45 /* SceneDelegate.swift */; };
 		ED9D03A725BAFE0C00ACDA45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D03A625BAFE0C00ACDA45 /* ViewController.swift */; };
 		ED9D03AA25BAFE0C00ACDA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9D03A825BAFE0C00ACDA45 /* Main.storyboard */; };
 		ED9D03AC25BAFE1000ACDA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9D03AB25BAFE1000ACDA45 /* Assets.xcassets */; };
 		ED9D03AF25BAFE1000ACDA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9D03AD25BAFE1000ACDA45 /* LaunchScreen.storyboard */; };
+		EDD8B6CD25BF5E3100B841E4 /* MonthlyPayCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD8B6CC25BF5E3100B841E4 /* MonthlyPayCalc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED42BA8725C03E0F00A0A550 /* RepayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepayView.swift; sourceTree = "<group>"; };
 		ED9D039F25BAFE0C00ACDA45 /* StudentRepay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentRepay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9D03A225BAFE0C00ACDA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED9D03A425BAFE0C00ACDA45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		ED9D03AB25BAFE1000ACDA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED9D03AE25BAFE1000ACDA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9D03B025BAFE1000ACDA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD8B6CC25BF5E3100B841E4 /* MonthlyPayCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPayCalc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED9B553F25BC73AE00554B1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D03A825BAFE0C00ACDA45 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED9B554025BC73BC00554B1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8B6CC25BF5E3100B841E4 /* MonthlyPayCalc.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ED9D039625BAFE0C00ACDA45 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +78,23 @@
 			children = (
 				ED9D03A225BAFE0C00ACDA45 /* AppDelegate.swift */,
 				ED9D03A425BAFE0C00ACDA45 /* SceneDelegate.swift */,
-				ED9D03A625BAFE0C00ACDA45 /* ViewController.swift */,
-				ED9D03A825BAFE0C00ACDA45 /* Main.storyboard */,
+				ED9B554025BC73BC00554B1F /* Model */,
+				ED9B553F25BC73AE00554B1F /* View */,
+				EDD8B6CB25BF5D8F00B841E4 /* Controller */,
 				ED9D03AB25BAFE1000ACDA45 /* Assets.xcassets */,
 				ED9D03AD25BAFE1000ACDA45 /* LaunchScreen.storyboard */,
 				ED9D03B025BAFE1000ACDA45 /* Info.plist */,
 			);
 			path = StudentRepay;
+			sourceTree = "<group>";
+		};
+		EDD8B6CB25BF5D8F00B841E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D03A625BAFE0C00ACDA45 /* ViewController.swift */,
+				ED42BA8725C03E0F00A0A550 /* RepayView.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +170,8 @@
 				ED9D03A725BAFE0C00ACDA45 /* ViewController.swift in Sources */,
 				ED9D03A325BAFE0C00ACDA45 /* AppDelegate.swift in Sources */,
 				ED9D03A525BAFE0C00ACDA45 /* SceneDelegate.swift in Sources */,
+				ED42BA8825C03E0F00A0A550 /* RepayView.swift in Sources */,
+				EDD8B6CD25BF5E3100B841E4 /* MonthlyPayCalc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
