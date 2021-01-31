@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     {
         if sender.isSelected == true{
             sender.isSelected = false
-            sender.backgroundColor = #colorLiteral(red: 0.2433541417, green: 0.1645010114, blue: 0.3541018665, alpha: 1)
+            sender.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             if sender.currentTitle == "Undergrad" {
                 isUndergrad = false
             } else if sender.currentTitle == "Postgrad" {
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             
         } else if sender.isSelected == false {
             sender.isSelected = true
-            sender.backgroundColor = #colorLiteral(red: 0.9470568266, green: 0.1645010114, blue: 0.3541018665, alpha: 1)
+            sender.backgroundColor = #colorLiteral(red: 0.3476296961, green: 0.7546870112, blue: 0.6883704066, alpha: 1)
             if sender.currentTitle == "Undergrad" {
                 isUndergrad = true
             } else if sender.currentTitle == "Postgrad" {

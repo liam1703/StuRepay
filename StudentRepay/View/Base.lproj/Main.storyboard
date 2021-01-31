@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="wVB-cO-M3x">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hello (1)" translatesAutoresizingMaskIntoConstraints="NO" id="wVB-cO-M3x">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="EDq-Up-sem">
@@ -36,15 +36,15 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asV-gn-c64">
                                                         <rect key="frame" x="0.0" y="0.0" width="140" height="60"/>
-                                                        <color key="backgroundColor" red="0.2433541417" green="0.16450101140000001" blue="0.35410186649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="XMY-so-a9L"/>
                                                             <constraint firstAttribute="height" constant="60" id="u3q-d5-iU1"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
-                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" red="0.17587618290000001" green="0.41624838089999999" blue="0.3830083313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Undergrad">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="degreeSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45v-fx-gVP"/>
@@ -52,15 +52,15 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eA3-Fg-mKd">
                                                         <rect key="frame" x="199" y="0.0" width="140" height="60"/>
-                                                        <color key="backgroundColor" red="0.16827165700076435" green="0.073744135723372212" blue="0.24099336144300498" alpha="0.55006602112676062" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="60" id="Tqs-fX-Io5"/>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="zZu-wJ-JCf"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="23"/>
-                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" red="0.17587618290000001" green="0.41624838089999999" blue="0.3830083313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Postgrad">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="degreeSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WSA-8q-qfG"/>
@@ -70,12 +70,12 @@
                                             </stackView>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="hello" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="CoR-Ua-Glb">
                                                 <rect key="frame" x="0.0" y="333" width="350" height="55"/>
-                                                <color key="backgroundColor" red="0.30517205600000002" green="0.2050109208" blue="0.44183033700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="KD6-ft-7MO"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="z3I-2k-HFP"/>
                                                 </constraints>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                 <connections>
                                                     <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ipV-Gx-LoM"/>
@@ -88,7 +88,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtZ-OO-VmH">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
-                                                <color key="backgroundColor" red="0.16827165700076435" green="0.073744135723372212" blue="0.24099336144300498" alpha="0.55006602112676062" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.3476296961" green="0.75468701120000004" blue="0.68837040660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="75" id="EZP-Cc-Wf4"/>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="210" id="Nih-n2-Pm5"/>
@@ -143,20 +143,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="eIk-n3-Or8">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hello (1)" translatesAutoresizingMaskIntoConstraints="NO" id="eIk-n3-Or8">
+                                <rect key="frame" x="0.0" y="-27" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Total Monthly Repayment Is: " textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VV7-kb-MaJ">
-                                <rect key="frame" x="38" y="140" width="339" height="143"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="£100.00" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pCj-pe-xyQ">
+                                <rect key="frame" x="0.0" y="372" width="414" height="75.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="38"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="63"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ghu-nR-iNZ">
-                                <rect key="frame" x="0.0" y="628" width="414" height="73"/>
-                                <color key="backgroundColor" red="0.16827165700076435" green="0.073744135723372212" blue="0.24099336144300498" alpha="0.55006602112676062" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="0.0" y="733" width="414" height="75"/>
+                                <color key="backgroundColor" red="0.3476296961" green="0.75468701120000004" blue="0.68837040660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="KuC-16-gcN"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="210" id="fRm-X6-Pdj" userLabel="width ≥ 270"/>
@@ -169,16 +169,21 @@
                                     <action selector="recalcPressed:" destination="HFj-wj-03v" eventType="touchUpInside" id="c1W-op-8TD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="£100.00" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pCj-pe-xyQ">
-                                <rect key="frame" x="38" y="390" width="356" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="63"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your Total Monthly Repayment Is: " textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VV7-kb-MaJ">
+                                <rect key="frame" x="10" y="216" width="394" height="75.5"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="38"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6NR-ev-drb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VV7-kb-MaJ" firstAttribute="leading" secondItem="6NR-ev-drb" secondAttribute="leading" constant="10" id="Nwz-nw-ISn"/>
+                            <constraint firstItem="6NR-ev-drb" firstAttribute="trailing" secondItem="VV7-kb-MaJ" secondAttribute="trailing" constant="10" id="ijv-Kf-bTe"/>
+                            <constraint firstItem="Ghu-nR-iNZ" firstAttribute="bottom" secondItem="6NR-ev-drb" secondAttribute="bottom" id="nya-4W-Oq6"/>
+                            <constraint firstItem="pCj-pe-xyQ" firstAttribute="top" secondItem="VV7-kb-MaJ" secondAttribute="bottom" constant="8.5" id="zlK-HY-BwG"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="monthlyPayment" destination="pCj-pe-xyQ" id="sac-77-p53"/>
@@ -190,7 +195,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="166.5" height="333"/>
+        <image name="hello (1)" width="125" height="270.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
